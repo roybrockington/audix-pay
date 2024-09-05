@@ -4,6 +4,10 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
+        hostname: '*.audixusa.com',
+      },
+      {
+        protocol: 'https',
         hostname: '*.scvdistribution.co.uk',
       },
     ],
