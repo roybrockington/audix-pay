@@ -13,7 +13,7 @@ const Home = () => {
                     All deliveries 1st Oct
                 </p>
                 {deals.map((deal) => 
-                    <li className="mb-2 list-none flex flex-col items-center gap-4">
+                    <li key={deal.sku} className="mb-2 list-none flex flex-col items-center gap-4">
                         <h3 className="text-xl font-bold">{deal.name}</h3>
                         <div className="flex">
                             <Image
