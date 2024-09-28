@@ -10,7 +10,7 @@ const Header = () => {
                 width={128}
                 height={40}
             />
-            <p className='flex flex-col font-audix text-white uppercase'>
+            <p className='flex flex-col text-white uppercase'>
                 <span className='font-bold'>Show Deals</span>
                 <span className='font-light'>TUKDS 2024</span>
             </p>
